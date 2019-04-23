@@ -1,2 +1,13 @@
 server:
   port: 8081
+  tomcat:
+    uri-encoding: utf-8
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_blog
+    username: root
+    password: root
+
+mybatis:
+ mapperLocations: classpath*:com/myblog/dao/*.xml

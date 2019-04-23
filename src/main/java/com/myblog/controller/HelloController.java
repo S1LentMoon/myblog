@@ -1,4 +1,4 @@
-package com.myblog.myblog.hello;
+package com.myblog.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
